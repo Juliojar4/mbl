@@ -37,11 +37,11 @@ export default function LojaMbl() {
  
     aria-label="Infinite Slider"
   >
-    {LojaMblJson.map((el, id) => (
-      <SplideSlide key={id}>
-        <img className="w-64" src={el.imagem} alt="" />
-      </SplideSlide>
-    ))}
+      {LojaMblJson.map((el, id) => (
+        <SplideSlide key={id}>
+          <img className="w-64" src={el.imagem} alt="Produto da Loja MBL" />
+        </SplideSlide>
+      ))}
   </Splide>
 </div>
 
