@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section className="flex flex-col items-center">
       <div
-        className="lg:w-full w-screen max-w-none relative left-1/2 -translate-x-1/2 mt-36 hero-home"
+        className="lg:w-full w-screen max-w-none relative left-[54%] md:left-1/2 -translate-x-1/2 mt-36 hero-home"
         style={{ backgroundImage: `url(${homeHeroBg})` }}
       >
         <img className="lg:block hidden lg:w-3/4 lg:mt-[-90px]" src={heroHomeMenbersOfMbl} alt="Membros do MBL" />
