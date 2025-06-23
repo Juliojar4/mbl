@@ -1,54 +1,66 @@
-# 🧾 Dashboard Blackrun – React + Vite
+# MBL - Site Oficial
 
-Este projeto é um dashboard moderno de vendas feito com **React + Vite**, focado em performance, escalabilidade e organização. Ele utiliza uma arquitetura de pastas baseada em **domínios (features)**, seguindo as melhores práticas de desenvolvimento frontend.
+Projeto em React e TypeScript que implementa o portal do **Movimento Brasil Livre**. O objetivo é disponibilizar notícias, eventos e outras iniciativas do MBL em um site moderno e responsivo.
+
+## ✨ Visão Geral
+- Frontend construído com [Vite](https://vitejs.dev/) e [React](https://react.dev/).
+- Estilização com [TailwindCSS](https://tailwindcss.com/).
+- Roteamento via [React Router](https://reactrouter.com/) e componentes em [TypeScript](https://www.typescriptlang.org/).
+- Projeto organizado por domínios para facilitar a escalabilidade.
+
+## Índice
+1. [Tecnologias](#-tecnologias)
+2. [Estrutura do Projeto](#-estrutura-do-projeto)
+3. [Requisitos](#-requisitos)
+4. [Como Rodar](#-como-rodar)
+5. [Scripts Disponíveis](#-scripts-disponiveis)
+6. [Contribuição](#-contribuição)
 
 ## 🚀 Tecnologias
+- **React 19**
+- **TypeScript**
+- **Vite 6**
+- **TailwindCSS**
+- **React Router**
+- **Axios** para comunicação HTTP
+- **Splide** para carrosséis de imagem
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [React Router](https://reactrouter.com/)
-- [Zustand](https://zustand-demo.pmnd.rs/) ou [Redux Toolkit](https://redux-toolkit.js.org/) (opcional)
-- [Axios](https://axios-http.com/)
-- [Recharts](https://recharts.org/en-US) ou [Victory](https://formidable.com/open-source/victory/) para gráficos
-- [TailwindCSS](https://tailwindcss.com/) para estilos
-
----
-
-## 📁 Estrutura de Pastas
-
+## 📁 Estrutura do Projeto
 ```bash
 src/
-├── assets/              # Imagens, ícones, fontes, estilos globais
-├── components/          # Componentes genéricos reutilizáveis (ex: Button, Card)
-│   └── ui/              # Elementos visuais puros e desacoplados
-├── features/            # Domínios do app (cada feature tem seus próprios arquivos)
-│   ├── sales/           # Funcionalidades relacionadas a vendas
-│   │   ├── components/  # Componentes específicos da feature
-│   │   ├── pages/       # Páginas relacionadas
-│   │   ├── hooks/       # Hooks locais da feature
-│   │   ├── services/    # Lógica de dados (API, mock, etc)
-│   │   └── salesSlice.ts # (se usar Zustand ou Redux)
-│   └── users/           # Exemplo de outra feature
-├── layouts/             # Layouts reutilizáveis com header/sidebar
-├── pages/               # Páginas principais conectadas ao sistema de rotas
-├── routes/              # Definição de rotas do app
-├── store/               # Estado global (Zustand, Redux, etc)
-├── hooks/               # Hooks reutilizáveis e independentes
-├── utils/               # Funções auxiliares (formatDate, calcularTotal, etc)
-├── services/            # Configuração de serviços globais (ex: axios instance)
-├── constants/           # Constantes globais do sistema
-├── config/              # Configurações gerais (tema, ambiente)
-└── main.jsx             # Entrada principal da aplicação
+├── assets/      # Imagens e fontes
+├── components/  # Componentes reutilizáveis
+├── layouts/     # Layouts gerais
+├── pages/       # Páginas de rotas
+├── routes/      # Definição de rotas
+├── types/       # Tipagens globais
+└── main.tsx     # Entrada da aplicação
 ```
 
-## ⚡️ Instalando Dependências do Projeto
+## 🔧 Requisitos
+- [Node.js](https://nodejs.org/) 18 ou superior
+- [Yarn](https://yarnpkg.com/) 1.22 ou superior
 
-- [Yarn]
+## ▶️ Como Rodar
+1. Clone este repositório.
+2. Instale as dependências:
+   ```bash
+   yarn
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   yarn dev
+   ```
 
-Para iniciar o Projeto local:
-    yarn install
-    yarn dev
+O site será executado em `http://localhost:5173` (ou porta definida pelo Vite).
 
-Extensões necessárias:
-    ESLint
-    Prettier ESLint
+## 🔬 Scripts Disponíveis
+- `yarn dev` &ndash; inicia o ambiente de desenvolvimento
+- `yarn build` &ndash; gera a aplicação para produção
+- `yarn preview` &ndash; visualiza a build gerada
+- `yarn lint` &ndash; executa o ESLint
+- `yarn lint:scss` &ndash; executa o Stylelint
+
+## 📝 Contribuição
+Contribuições são bem-vindas! Abra issues para relatar problemas ou sugerir melhorias. Pull requests são analisados e discutidos antes da fusão.
+
