@@ -12,6 +12,7 @@ interface Botao {
 interface ColCardOneType {
     imagem: string;
     titulo: string;
+    alt: string;
     descricao: string;
     url: string;
 }
@@ -20,6 +21,7 @@ interface ColCardTwoType {
     imagem: string;
     titulo: string;
     descricao: string;
+    alt: string;
     url?: string;
     botoes?: Botao[];
 }
@@ -59,7 +61,7 @@ export default function ImageGrid() {
                         index === 1 ? 'lg:col-span-2 ' : 'mb-20 lg:mb-0'
                         }`}
                     >
-                        <img src={card.imagem} alt={card.titulo} className="absolute left-1/2 -translate-x-1/2 mt-[-94px] top-0 w-[270px] h-64 object-contain rounded mb-4" />
+                        <img src={card.imagem} alt={card.alt} className="absolute left-1/2 -translate-x-1/2 mt-[-94px] top-0 w-[270px] h-64 object-contain rounded mb-4" />
                         <div className='flex flex-col h-full'>
                             <h3 className="text-lg font-semibold mb-2">{card.titulo}</h3>
                             <p className="text-gray-500 font-normal mb-4">{card.descricao}</p>

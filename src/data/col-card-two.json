@@ -2,12 +2,14 @@
     {
         "imagem": "src/assets/images/dedo-apontando.webp",
         "titulo": "Academia MBL",
+        "alt": "Dedo apontando para o usuário",
         "descricao": "Queremos que você seja nosso político eleito, chefe de gabinete, um coordenador ou um intelectual.",
         "url": "#"
     },
     {
       "imagem": "src/assets/images/maquina-de-cortes.avif",
       "titulo": "Cursos",
+      "alt": "Munitor estilo MAC com o site Maquina de cortes aberto",
       "descricao": "Conheça nossos cursos elaborados para o seu desenvolvimento intelectual e profissional.",
       "botoes": [
         {
