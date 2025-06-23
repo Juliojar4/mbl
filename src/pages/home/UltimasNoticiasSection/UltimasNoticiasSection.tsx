@@ -1,4 +1,4 @@
-import UltimasNoticiasGrid from '../UltimasNoticiasGrid/UltimasNoticiasGrid';
+import UltimasNoticiasGrid from './UltimasNoticiasGrid/UltimasNoticiasGrid';
 
 export default function UltimasNoticiasSection() {
   return (

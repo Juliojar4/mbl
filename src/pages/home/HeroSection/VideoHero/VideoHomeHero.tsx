@@ -44,7 +44,7 @@ export default function VideoHomeHero() {
       {showIframe && (
         <iframe
           className="absolute inset-0 w-full h-full z-0"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+          src="https://www.youtube.com/embed/HgJONCviknA?start=3&autoplay=1"
           title="YouTube video"
           allow="autoplay; encrypted-media"
           allowFullScreen

@@ -2,7 +2,7 @@ import homeHeroBg from '@image/home-hero-bg.avif';
 import heroHomeMenbersOfMbl from '@image/hero-home-menbers-of-mbl.avif';
 import heroHomeMenbersOfMblMobile from '@image/hero-image-mobile.avif';
 
-import VideoHomeHero from '../VideoHero/VideoHomeHero';
+import VideoHomeHero from './VideoHero/VideoHomeHero';
 
 export default function HeroSection() {
   return (

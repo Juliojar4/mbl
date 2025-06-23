@@ -1,4 +1,4 @@
-import TimelineMbl from '../TimelineMbl/TimelineMbl';
+import TimelineMbl from './TimelineMbl/TimelineMbl';
 
 export default function TimelineSection() {
   return (

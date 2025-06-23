@@ -1,4 +1,4 @@
-import InfiniteSlider from '../InfiniteSlider/InfiniteSlider';
+import InfiniteSlider from './InfiniteSlider/InfiniteSlider';
 import Button from '@/components/Button';
 
 export default function PortaVozesSection() {

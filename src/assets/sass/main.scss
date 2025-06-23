@@ -9,11 +9,10 @@
 
 @use 'layout/footer';
 
-@use 'pages/home';
-
+@use '../../pages/home/home.scss';
 @use '../../pages/home/ImageGrid/image-grid.scss';
-@use '../../pages/home/InfiniteSlider/infinite-slider.scss';
-@use '../../pages/home/UltimasNoticiasGrid/ultimas-noticias-grid.scss';
+@use '../../pages/home/PortaVozesSection/InfiniteSlider/infinite-slider.scss';
+@use '../../pages/home/UltimasNoticiasSection/UltimasNoticiasGrid/ultimas-noticias-grid.scss';
 
 @tailwind base;
 @tailwind components;

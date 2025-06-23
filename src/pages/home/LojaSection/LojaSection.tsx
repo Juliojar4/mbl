@@ -1,4 +1,4 @@
-import LojaMbl from '../LojaMbl/LojaMbl';
+import LojaMbl from './LojaMbl/LojaMbl';
 import Button from '@/components/Button';
 
 export default function LojaSection() {
