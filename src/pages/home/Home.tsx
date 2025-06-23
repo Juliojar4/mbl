@@ -19,7 +19,7 @@ export default function Home() {
     <div className="container mt-10">
       <div>
         <div
-          className=" lg:w-full w-screen max-w-none relative left-1/2 -translate-x-1/2 lg:mt-0 mt-36 hero-home"
+          className=" lg:w-full w-screen max-w-none relative left-1/2 -translate-x-1/2 mt-36 hero-home"
           style={{
             backgroundImage: `url(${homeHeroBg})`,
           }}

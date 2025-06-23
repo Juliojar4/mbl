@@ -15,7 +15,7 @@ export default function TimelineMbl() {
                   <span className="text-white text-[140px] font-sans font-bold mt-[-30px]">14</span>
                 </div>
                 <img
-                  className='lg:absolute static lg:w-[370px] w-[275px] bottom-0 left-[-40px] mix-blend-multiply'
+                  className='md:absolute static lg:w-[370px] w-[275px] bottom-0 left-[-40px] mix-blend-multiply'
                   src={grupoMblJovem}
                   alt="Grupo MBL jovem reunido"
                 />
@@ -64,13 +64,13 @@ export default function TimelineMbl() {
             <div className='grid grid-cols-1 lg:grid-cols-[7fr_5fr] gap-10 
               lg:w-full w-screen max-w-none relative left-1/2 -translate-x-1/2'>
               <div className='flex justify-end items-center relative overflow-y-clip'>
-                <div className='bg-blue-300 h-full w-full lg:w-[85%] lg:pt-9'> 
+                <div className='flex items-end flex-row-reverse bg-blue-300 h-full w-full lg:w-[85%] lg:pt-9'> 
                   <div className="flex flex-col leading-none text-right">
                     <span className="text-white text-[140px] font-sans font-bold">20</span>
                     <span className="text-white text-[140px] font-sans font-bold mt-[-30px]">16</span>
                   </div>
                   <img
-                    className='absolute w-[310px] bottom-[-50px] left-[-20px] mix-blend-multiply'
+                    className='md:absolute relative w-[310px] bottom-[-50px] left-[-20px] mix-blend-multiply'
                     src={kimERanamJovens}
                     alt="Kim e Ranam jovens"
                   />
