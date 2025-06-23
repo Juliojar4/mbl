@@ -6,9 +6,9 @@ import VideoHomeHero from './VideoHero/VideoHomeHero';
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center lg:w-full w-screen max-w-none relative left-1/2 -translate-x-1/2">
       <div
-        className="lg:w-full w-screen max-w-none relative left-[54%] md:left-1/2 -translate-x-1/2 mt-36 hero-home"
+        className="w-full max-w-none relative mt-36 hero-home"
         style={{ backgroundImage: `url(${homeHeroBg})` }}
       >
         <img className="lg:block hidden lg:w-3/4 lg:mt-[-90px]" src={heroHomeMenbersOfMbl} alt="Membros do MBL" />
@@ -17,7 +17,7 @@ export default function HeroSection() {
 
       <VideoHomeHero />
 
-      <div className="text-blue-200 flex flex-col justify-center text-center">
+      <div className="container text-blue-200 flex flex-col justify-center text-center">
         <h1 className="mb-5">Juntos pelo Brasil que Sonhamos!</h1>
         <p className="big-body max-w-[559px] self-center">
           Unimos pessoas que desejam marcar sua geração e entregamos a elas oportunidades reais de agir hoje, para
