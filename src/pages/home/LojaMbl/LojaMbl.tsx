@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 
-import LojaMblJson from '@/data/loja-mbl.json';
+import LojaMblJson from '@/data/lojaMbl';
 
 import Button from '@/components/Button';
 

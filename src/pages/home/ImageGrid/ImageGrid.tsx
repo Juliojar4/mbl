@@ -1,5 +1,5 @@
-import colCardOneJson from '@/data/col-card-one.json';
-import colCardTwoJson from '@/data/col-card-two.json';
+import colCardOneJson from '@/data/colCardOne';
+import colCardTwoJson from '@/data/colCardTwo';
 
 import Button from '@/components/Button';
 

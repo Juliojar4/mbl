@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 
-import nossosPortaVozesJson from '@/data/nossos-porta-vozes.json';
+import nossosPortaVozesJson from '@/data/nossosPortaVozes';
 
 interface nossosPortaVozesType {
   imagem: string;

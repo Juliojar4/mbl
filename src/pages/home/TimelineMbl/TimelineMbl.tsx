@@ -1,3 +1,6 @@
+import grupoMblJovem from '@image/grupo-mbl-jovem.avif';
+import kimERanamJovens from '@image/kim-e-ranam-jovens.avif';
+
 export default function TimelineMbl() {
     return (
         <div>
@@ -13,7 +16,7 @@ export default function TimelineMbl() {
                 </div>
                 <img
                   className='lg:absolute static lg:w-[370px] w-[275px] bottom-0 left-[-40px] mix-blend-multiply'
-                  src="src/assets/images/grupo-mbl-jovem.avif"
+                  src={grupoMblJovem}
                   alt="Grupo MBL jovem reunido"
                 />
               </div>
@@ -68,7 +71,7 @@ export default function TimelineMbl() {
                   </div>
                   <img
                     className='absolute w-[310px] bottom-[-50px] left-[-20px] mix-blend-multiply'
-                    src="src/assets/images/kim-e-ranam-jovens.avif"
+                    src={kimERanamJovens}
                     alt="Kim e Ranam jovens"
                   />
                 </div>
