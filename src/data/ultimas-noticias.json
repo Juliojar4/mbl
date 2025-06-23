@@ -1,0 +1,20 @@
+[
+    {
+        "imagem":"src/assets/images/amanda-e-oruam.jpg",
+        "title":"O que é o “Projeto Anti-Oruam”, protocolado por vereadora de São Paulo",
+        "resumo":"Proposta apresentada por Amanda Vettorazzo (União Brasil) quer proibir a Prefeitura da capital...",
+        "link":"#"
+    },
+    {
+        "imagem":"src/assets/images/kim-kataguiri.jpg",
+        "title":"Kataguiri propõe pena de até 25 anos para estupro de vulnerável",
+        "resumo":"O deputado federal Kim Kataguiri (União-SP) apresentou, nesta quarta-feira (26), o Projeto de Lei…",
+        "link":"#"
+    },
+    {
+        "imagem":"src/assets/images/educação-financeira-guto-zacarias.jpg",
+        "title":"Alesp aprova projeto de educação financeira nas escolas de São Paulo",
+        "resumo":"Autor da proposta é o deputado estadual Guto Zacarias (Novo), vice-líder do governo Tarcísio...",
+        "link":"#"
+    }
+]

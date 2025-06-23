@@ -1,0 +1,20 @@
+// Abstracts (variáveis, mixins, funções)
+@use 'abstracts/variables';
+ 
+// Base (reset, tipografia e estilos básicos)
+ 
+@use './base/typography';
+@use 'base/base';
+
+
+@use 'layout/footer';
+
+@use 'pages/home';
+
+@use '../../pages/home/ImageGrid/image-grid.scss';
+@use '../../pages/home/InfiniteSlider/infinite-slider.scss';
+@use '../../pages/home/UltimasNoticiasGrid/ultimas-noticias-grid.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

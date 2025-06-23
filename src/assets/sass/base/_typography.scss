@@ -1,0 +1,61 @@
+h1 {
+    font-size: 2.625rem !important;
+    font-weight: 700 !important;
+    line-height: 1.1;
+    color: var(--black);
+    font-family: var(--font-afacad);
+}
+
+h2 {
+    font-size: 1.875rem !important;
+    font-weight: 700 !important;
+    line-height: 1.1;
+    color: var(--black);
+    font-family: var(--font-afacad);
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    color: var(--black);
+    font-family: var(--font-afacad);
+}
+
+a {
+    font-family: var(--font-afacad);
+}
+
+.big-body {
+    font-size: 1.25rem !important;
+    color: var(--black);
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: var(--font-afacad);
+}
+
+.medium-body {
+    font-size: 1.125rem !important;
+    color: var(--black);
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: var(--font-afacad);
+}
+
+.small-body {
+    font-size: 1rem;
+    color: var(--black);
+    line-height: 1.2em;
+    font-family: var(--font-afacad);
+}
+
+.text-button {
+    font-size: 1rem;
+    color: var(--white);
+    font-family: var(--font-afacad);
+    font-weight: 600;
+}
+
+.global-transition {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}

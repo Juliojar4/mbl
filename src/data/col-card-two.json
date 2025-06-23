@@ -1,0 +1,32 @@
+[
+    {
+        "imagem": "src/assets/images/dedo-apontando.webp",
+        "titulo": "Academia MBL",
+        "descricao": "Queremos que você seja nosso político eleito, chefe de gabinete, um coordenador ou um intelectual.",
+        "url": "#"
+    },
+    {
+      "imagem": "src/assets/images/maquina-de-cortes.avif",
+      "titulo": "Cursos",
+      "descricao": "Conheça nossos cursos elaborados para o seu desenvolvimento intelectual e profissional.",
+      "botoes": [
+        {
+            "textButton": "Máquina de Cortes",
+            "url": "#"
+        },
+        {
+            "textButton": "Filosofia Política",
+            "url": "#"
+        },
+        {
+            "textButton": "Segredos da Escrita",
+            "url": "#"
+        },
+        {
+            "textButton": "História da Humanidade",
+            "url": "#"
+        }
+      ]
+    }
+]
+  

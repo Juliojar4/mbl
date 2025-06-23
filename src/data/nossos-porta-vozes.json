@@ -1,0 +1,56 @@
+[
+    {
+        "imagem": "src/assets/images/cristiano-beraldo.avif",
+        "seguidores": [
+            "+16 mil Votos",
+            "+263 mil Seguidores"
+        ],
+        "nome": "Cristiano Beraldo"
+    },  
+    {
+        "imagem": "src/assets/images/ricardo-almeida.webp",
+        "seguidores": [
+            "+11 mil Seguidores"
+        ],
+        "nome": "Ricardo Almeida"
+    },
+    {
+        "imagem": "src/assets/images/guto.avif",
+        "seguidores": [
+            "+150 mil Votos",            
+            "+1,3 mi Seguidores"
+        ],
+        "nome": "Guto Zacarias"
+    },
+    {
+        "imagem": "src/assets/images/renato-battista.webp",
+        "seguidores": [
+            "+54 mil Votos",
+            "+356 mil Seguidores"
+        ],
+        "nome": "Renato Battista"
+    },
+    {
+        "imagem": "src/assets/images/amanda.webp",
+        "seguidores": [
+            "+40 mil Votos",
+            "+1 mi Seguidores"
+        ],
+        "nome": "Amanda Vettorazzo"
+    },
+    {
+        "imagem": "src/assets/images/jota.avif",
+        "seguidores": [
+            "+422 mil Seguidores"
+        ],
+        "nome": "Jota"
+    },
+    {
+        "imagem": "src/assets/images/paulo-cruz.webp",
+        "seguidores": [
+            "+125 mil Seguidores"
+        ],
+        "nome": "Paulo Cruz"
+    }
+]
+  

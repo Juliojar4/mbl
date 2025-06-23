@@ -1,0 +1,25 @@
+/* === IMPORTAÇÃO DE FONTES === */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* === VARIÁVEIS GLOBAIS === */
+:root {
+  /* Cores básicas */
+  --black:       #000000;
+  --white:       #ffffff;
+
+  /* Tons de azul e verde água */
+  --blue-200:    #47d1bc;
+  --blue-300:    #5cbcae;
+
+
+  /* Cores quentes */
+  --red-300:     #924953;
+  --orange-300:  #eb894f;
+  --yellow-500:  #ffd912;
+
+  /* Tons neutros */
+  --gray-500:    #666666;
+
+  /* Fonte principal */
+  --font-afacad:   'Afacad', sans-serif;
+}
