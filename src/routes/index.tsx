@@ -9,8 +9,9 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: '', element: <Home /> },
+      { path: '*', element: <NotFound /> }, 
     ],
-    errorElement: <NotFound />,
+ 
   },
 ]);
 
