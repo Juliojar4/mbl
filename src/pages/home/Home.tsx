@@ -43,7 +43,7 @@ export default function Home() {
         <section className="bg-yellow-500 mt-10 rounded-[20px] py-8 mb-20">
           <div className="flex flex-col md:flex-row justify-center mb-5">
             <div className="flex justify-center">
-              <img className="w-40 md:w-64 mb-5" src={oneFestival} alt="Festival" />
+          <img className="w-40 md:w-64 mb-5" src={oneFestival} alt="Banner do One Festival MBL" />
             </div>
             <div className="flex flex-col gap-3 justify-center items-center px-4 md:px-12 md:py-2">
               <h3 className="uppercase">O primeiro festival do MBL</h3>
@@ -58,7 +58,7 @@ export default function Home() {
               <Button text="Garantir Meu Ingresso Agora" link="#" />
             </div>
           </div>
-          <img className="md:mt-0 mt-8" src={vetMontanha} alt="Montanha" />
+          <img className="md:mt-0 mt-8" src={vetMontanha} alt="Ilustração de montanha" />
         </section>
 
         <ImageGrid />

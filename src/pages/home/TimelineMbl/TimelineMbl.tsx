@@ -14,7 +14,7 @@ export default function TimelineMbl() {
                 <img
                   className='lg:absolute static lg:w-[370px] w-[275px] bottom-0 left-[-40px] mix-blend-multiply'
                   src="src/assets/images/grupo-mbl-jovem.avif"
-                  alt=""
+                  alt="Grupo MBL jovem reunido"
                 />
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function TimelineMbl() {
                   <img
                     className='absolute w-[310px] bottom-[-50px] left-[-20px] mix-blend-multiply'
                     src="src/assets/images/kim-e-ranam-jovens.avif"
-                    alt=""
+                    alt="Kim e Ranam jovens"
                   />
                 </div>
               </div>

@@ -10,7 +10,7 @@ function Header() {
       <nav className="container sticky z-50 flex justify-between items-center">
         {/* Logo */}
         <Link to="/">
-          <img className="w-32" src={Logo} alt="Logo" />
+          <img className="w-32" src={Logo} alt="Logotipo do Movimento Brasil Livre" />
         </Link>
 
         {/* Desktop Navigation */}
