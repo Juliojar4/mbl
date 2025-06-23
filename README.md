@@ -60,6 +60,3 @@ O site será executado em `http://localhost:5173` (ou porta definida pelo Vite).
 - `yarn preview` &ndash; visualiza a build gerada
 - `yarn lint` &ndash; executa o ESLint
 - `yarn lint:scss` &ndash; executa o Stylelint
-
-## 📝 Contribuição
-Contribuições são bem-vindas! Abra issues para relatar problemas ou sugerir melhorias. Pull requests são analisados e discutidos antes da fusão.
