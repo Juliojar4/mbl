@@ -1,11 +1,16 @@
 import React from 'react';
-import Logo from '@image/Movimento_Brasil_Livre_logo.png';  
-import Jornal from '@image/jornal.svg'
+import Logo from '@image/Movimento_Brasil_Livre_logo.png';
+import Jornal from '@image/jornal.svg';
+import YoutubeIcon from '@image/youtube.svg';
+import XIcon from '@image/x.svg';
+import TiktokIcon from '@image/tiktok.svg';
+import InstagramIcon from '@image/instagram.svg';
+import FacebookIcon from '@image/facebook.svg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const icons = ['youtube', 'x', 'tiktok', 'instagram', 'facebook']
+  const icons = [YoutubeIcon, XIcon, TiktokIcon, InstagramIcon, FacebookIcon];
 
   return (
     <footer className="text-center p-4 pb-0">
@@ -86,9 +91,9 @@ const Footer = () => {
           <p className='text-gray-500 text-[.625rem]'>© MBL {currentYear} | Todos os direitos reservados.</p>
         </div>
         <div className='flex gap-3'>
-          {icons.map((el, id) => (
+          {icons.map((icon, id) => (
             <div className='flex items-center' key={id}>
-              <img src={`/src/assets/images/${el}.svg`} className='w-5' alt={`Ícone do ${el}`} />
+              <img src={icon} className='w-5' alt='Ícone de rede social' />
             </div>
           ))}
         </div>

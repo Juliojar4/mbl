@@ -1,4 +1,4 @@
-import ultimasNoticiasJson from '@/data/ultimas-noticias.json'
+import ultimasNoticiasJson from '@/data/ultimasNoticias'
 import Button from '@/components/Button';
 
 
